@@ -13,6 +13,9 @@ switch (startGame) {
     case "mothership":
         break;
     case "talk":
+        var speakWithLeader = prompt("Your meeting with the leader of the methera invaders is going very well, until you see a sharp object hanging above you" +
+            "Do you continue the meeting or run back to your planet?");
+         
         break;
     case "flee":
         var fleePlanet = prompt("As the Methera forces killed all of your friends and family several years ago, you have no attachment " +
