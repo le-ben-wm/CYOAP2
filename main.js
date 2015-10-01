@@ -10,6 +10,7 @@ switch (startGame) {
     case "talk":
         break;
     case "flee":
+        var fleePlanet = prompt("")
         break;
 }
 /* Work on your own part:
