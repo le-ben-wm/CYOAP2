@@ -5,12 +5,14 @@ var startGame = prompt("The year is YX15. Your nation, the Atrar Union, located 
     "try to find the mothership, try to resolve the conflict by speaking with the leader, or flee your planet? (defend/mothership/talk/flee)");
 switch (startGame) {
     case "defend":
-        var defendPlanet = prompt("");
         break;
     case "mothership":
         break;
     case "talk":
-        break;
+        var speakWithLeader = prompt("Your meeting with the leader of the methera invaders is going very well, until you see a sharp object hanging above you" +
+            "Do you continue the meeting or run back to your planet?")
+             
+            break;
     case "flee":
         var fleePlanet = prompt("")
         break;
