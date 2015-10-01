@@ -12,7 +12,10 @@ switch (startGame) {
     case "talk":
         break;
     case "flee":
-        var fleePlanet = prompt("")
+        var fleePlanet = prompt("As the Methera forces killed all of your friends and family several years ago, you have no attachment " +
+            "to the Atrar Union and decide to flee the planet in the interest of saving your own life. You get in your ship and prepare " +
+            "to take off. With the amount of fuel you have, there are only a few other planets you will be able to reach before you run " +
+            "out. The closest, Nustrye, is an ally of the Atrar Union ");
         break;
 }
 /* Work on your own part:
@@ -21,3 +24,4 @@ switch (startGame) {
  Marques: Talk
  Ben: Flee
  */
+//test comment push
