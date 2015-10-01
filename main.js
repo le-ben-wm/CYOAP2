@@ -5,7 +5,10 @@ var startGame = prompt("The year is YX15. Your nation, the Atrar Union, located 
     "try to find the mothership, try to resolve the conflict by speaking with the leader, or flee your planet? (defend/mothership/talk/flee)");
 switch (startGame) {
     case "defend":
-        var defendPlanet = prompt("");
+        var defendPlanet = prompt("There's smoke in the air, buildings taller then the clouds for miles on fire. The whole world in front of you is collapsing" +
+            "Soldiers and civilians are dying all over and most Commanders have abandoned them. Now everyone on Serenity looks to you for leadership." +
+            "Your primary objective is to find and secure Chancellor Keith but you need to get civilians out of danger. You have limited assets. What will you spend them on? Who will you save?" +
+            "(chancellor/civilians)");
         break;
     case "mothership":
         break;
