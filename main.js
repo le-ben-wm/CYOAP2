@@ -17,6 +17,8 @@ switch (startGame) {
         }
         break;
     case "mothership":
+        var mothership = prompt("The Altrar nation has taken enough beating s from the Methera Empire. This AI race has taken too much from us for to long, now it's time to take" +
+            "the fight back to them.");
         break;
     case "talk":
         var speakWithLeader = prompt("Your meeting with the leader of the methera invaders is going very well, until you see a sharp object hanging above you" +
@@ -32,7 +34,7 @@ switch (startGame) {
 }
 /* Work on your own part:
  Andy: Defend
- Nick: Mothership
+ Nick: Offensive
  Marques: Talk
  Ben: Flee
  */
