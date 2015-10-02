@@ -22,8 +22,9 @@ switch (startGame) {
         }
         break;
     case "mothership":
-        var mothership = prompt("The Altrar nation has taken enough beating s from the Methera Empire. This AI race has taken too much from us for to long, now it's time to take" +
-            "the fight back to them.");
+        var mothership = prompt("The great commander John Flag called a meeting of the council of the Altrar nation. He rose in front of the council and said 'The Altrar nation has taken enough " +
+            "beatings from the Methera Empire. This A.I. race has taken too much from us for to long, now it's time to take the fight back to them. We will make our final stand again the Methra" +
+            " the Methra by (blowing up their mothership/making a final stand in space");
         break;
     case "talk":
         var speakWithLeader = prompt("Your meeting with the leader of the methera invaders is going very well, until you see a sharp object hanging above you" +
@@ -34,7 +35,7 @@ switch (startGame) {
                 offPlanet();
             case "yes":
                 var yes = prompt("Along with the chancellor dies some of the Atrar Union's deepest secret's. Rumors are that he knew the location and communication codes to a secret military base with extra support ships but there is no such thing on record." +
-                    "I guess we'll never know.")
+                    "I guess we'll never know.");
                 break;
             case "run":
                     alert("You ran back to the planet");
