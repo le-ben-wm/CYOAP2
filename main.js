@@ -14,6 +14,12 @@ switch (startGame) {
             "Soldiers and civilians are dying all over and most Commanders have abandoned them. Now everyone on Serenity looks to you for leadership." +
             "Your primary objective is to find and secure Chancellor Keith but you need to get civilians out of danger. You have limited assets. What will you spend them on? Who will you save?" +
             "(chancellor/civilians)");
+        if (defendPlanet === "chancellor"){
+            var serOneA = prompt("You start sending out scouts and Serenity has been bombarded and turned into a complete war zone. Your scouts come back with good and bad news" +
+                "They have found the chancellor injured and brought him back alive but unconscious and injured from a Methera Bot Execution Camp. " +
+                "In the process however, your scouts let several hundreds of civilians die to keep their cover. A nearby Atrar ship will pick up the Chancellor if you personally escort him to one of two LZ's." +
+                "FIRST LZ INTEL: The top of one of the only standing buildings but ");
+        }
         break;
     case "mothership":
         break;
