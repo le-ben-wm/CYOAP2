@@ -58,14 +58,14 @@ switch (startGame) {
 
     case "mothership":
         var mothership = prompt("The great commander John Flag called a meeting of the council of the Altrar nation. He rose in front of the council and said" +
-            " 'The Altrar nation has taken enough beatings from the Methera Empire. This A.I. race has taken too much from us for to long, now it's time to take the " +
+            " /'The Atrar nation has taken enough beatings from the Methera Empire. This A.I. race has taken too much from us for to long, now it's time to take the " +
             "fight back to them. We will make our final stand again" +
             " the Methra by (blowing up their mothership/make a final stand in space");
         if(mothership === "blowing up their mothership"){
             var blowingUpTheirMothership = prompt("They destroyed our cities, they destroyed our home, they destroyed our world, and now we will destory their world, " +
-                "to avenge ours.' The remaining forces of Altrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
-                "John Flag was accompaiedn by his two best soldiers, John-117 and Kelly-078  'You have all been trained for this moment, make your last stand count for " +
-                " the Altrar nation.' John got into his ship armed with (rifle/nuke)");
+                "to avenge ours.'\ The remaining forces of Altrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
+                "John Flag was accompanied by his two best soldiers, John-117 and Kelly-078  'You have all been trained for this moment, make your last stand count for " +
+                " the Altrar nation.'\ John got into his ship armed with (rifle/nuke)");
                     if(blowingUpTheirMothership === "nuke") {
                         var nuke = prompt("Stuff");
                     }
