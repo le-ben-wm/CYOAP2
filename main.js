@@ -32,7 +32,7 @@ switch (startGame) {
             }
 
         }else if(defendPlanet === "civilians" ){
-            var serOneCiv = prompt("You send out rescue crews to the nearby buil"ings in the cities and find hundreds of people in the fire. The Methera Bot-Men were looking ford+
+            var serOneCiv = prompt("You send out rescue crews to the nearby buildings in the cities and find hundreds of people in the fire. The Methera Bot-Men were looking ford+
             " civilian captives too and your squads sacrifice lots of men to bring those innocent people out of harms way. In the fighting, your command center gets hacked by the enemy "+
             "and plants a message showing you the execution of the Chancellor in what you recognize as the capital building and you see lots of hostages in the background. "+
             "Your men, however, trace that the message from an underground sewer juncture. Your men are demoralized and say they'll do whatever you say only if you go with them. Now, "+
@@ -62,7 +62,16 @@ switch (startGame) {
             "fight back to them. We will make our final stand again" +
             " the Methra by (blowing up their mothership/make a final stand in space");
         if(mothership === "blowing up their mothership"){
-            var blowingUpTheirMothership = prompt("They destroyed our cities, they destroyed oure hom, they deestroyed our world, and now we will destory their world, to avenge ours'" +                 "The remaining forces of Altrar Nation gathered in the air ship hangers the next morning  to prepare for their finalstand Commander John Flag was accompaiedn by his two" +                  "best soliders, John-117 and Kelly-078  'You have all been trained");
+            var blowingUpTheirMothership = prompt("They destroyed our cities, they destroyed oure hom, they destroyed our world, and now we will destory their world, " +
+                "to avenge ours' The remaining forces of Altrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
+                "John Flag was accompaiedn by his two best soldiers, John-117 and Kelly-078  'You have all been trained for this moment, make your last stand count for " +
+                " the Altrar nation.' John got into his ship armed with (rifle/nuke)");
+                    if(blowingUpTheirMothership === "nuke") {
+                        var nuke = prompt("");
+                    }
+                    else if(blowingUpTheirMothership === "rifle"){
+                        var rifle = prompt();
+            }
         }
         else if(mothership === "make a final stand in space"){
             console.log("Star Trek");
