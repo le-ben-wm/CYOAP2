@@ -62,15 +62,15 @@ switch (startGame) {
             "fight back to them. We will make our final stand again" +
             " the Methra by (blowing up their mothership/make a final stand in space");
         if(mothership === "blowing up their mothership"){
-            var blowingUpTheirMothership = prompt("They destroyed our cities, they destroyed oure hom, they destroyed our world, and now we will destory their world, " +
-                "to avenge ours' The remaining forces of Altrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
+            var blowingUpTheirMothership = prompt("They destroyed our cities, they destroyed our home, they destroyed our world, and now we will destory their world, " +
+                "to avenge ours.' The remaining forces of Altrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
                 "John Flag was accompaiedn by his two best soldiers, John-117 and Kelly-078  'You have all been trained for this moment, make your last stand count for " +
                 " the Altrar nation.' John got into his ship armed with (rifle/nuke)");
                     if(blowingUpTheirMothership === "nuke") {
-                        var nuke = prompt("");
+                        var nuke = prompt("Stuff");
                     }
                     else if(blowingUpTheirMothership === "rifle"){
-                        var rifle = prompt();
+                        var rifle = prompt("work");
             }
         }
         else if(mothership === "make a final stand in space"){
@@ -93,7 +93,7 @@ switch (startGame) {
                             "I guess we'll never know.");
                         break;
                     case "no":
-                        var no = prompt("You refused he peace treaty now you start to sword fight with the Methera Empire and he takes a swing at you what do you do "
+                        var no = prompt("You refused he peace treaty now you start to sword fight with the Methera Empire and he takes a swing at you what do you do " +
                         "roll out of the way, hold the sword sideways to block? (roll/block)");
                         break;
                     case "run":
