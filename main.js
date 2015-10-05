@@ -88,7 +88,7 @@ function offPlanet() {
         case "talk":
             var speakWithLeader = prompt("Your meeting with the leader of the methera invaders is going very well, until you see a sharp object hanging above you" +
                 "Do you continue the meeting or run back to your planet? (continue/run)");
-            switch (speakWithLeader){
+            switch (speakWithLeader) {
                 case "continue":
                     var continueToSpeak = prompt("The Meeting continues and goes swell until the leader asks for a sacrifice or war," +
                         " but he wants the Chancellor do you give it to him? (yes/no)");
@@ -101,21 +101,21 @@ function offPlanet() {
                             break;
                         case "no":
                             var no = prompt("You refused he peace treaty now you start to sword fight with the Methera Empire and he takes a swing at you what do you do " +
-                            "roll out of the way, hold the sword sideways to block? (roll/block)");
+                                "roll out of the way, hold the sword sideways to block? (roll/block)");
                             break;
                         case "run":
                             alert("You ran back to the planet");
                     }
-                    switch (no){
+                    switch (no) {
                         case "roll":
                             var roll = prompt("You roll out of the way do you swing yor usorwd backbor run to think of a plan  (swing/plan)");
                             break;
                         case "block":
-                             var block = alert("He hits you sword and  you fall to your knees and he cuts your head off. GAME OVER!!!!!");
+                            var block = alert("He hits you sword and  you fall to your knees and he cuts your head off. GAME OVER!!!!!");
                     }
                     switch (roll) {
                         case "swing":
-                            var swing = alert("You swung you  sword and missed, and your sword got stuck into the ground, and Soren Lynx the leader of the Methera Empire cuts you half, GAME OVER!!!!!!");
+                            var swing = alert("You swung your sword and missed, and your sword got stuck into the ground, and Soren Lynx the leader of the Methera Empire cuts you half, GAME OVER!!!!!!");
                             break;
                         case "plan":
                             var plan = prompt("You hide in a corner to plan what do you do now sleep it off or surrender? (sleep/surrender)");
@@ -131,49 +131,50 @@ function offPlanet() {
 
 
                 case "flee":
-            offPlanet();
-            alert("As the Methera forces killed all of your friends and family several years ago, you have no attachment " +
-                "to the Atrar Union and decide to flee the planet in the interest of saving your own life. You get in your ship and prepare " +
-                "to take off. With the amount of fuel you have, there are only a few other planets you will be able to reach before you run " +
-                "out. The closest, Nustrye, is an ally of the Atrar Union and would probably welcome you in. However, you might also be seen " +
-                "as a traitor, as you are a commander in the Atrar military. The next planet, Pasleau, is known as a neutral group, often staying " +
-                "out of conflicts and not taking sides in wars. However, because of this, they often do not take in refugees from other " +
-                "nations. The furthest planet you can go to is Shaenga, which is one of the many planets in the galaxy that has not been " +
-                "colonized yet.");
-            var fleePlanet = prompt("Which planet do you go to? (nustrye/pasleau/shaenga)");
-            switch (fleePlanet) {
-                case "nustrye":
-                    var nustrye = prompt("You decide to head to the closest planet, Nustrye. When you arrive on the planet, you are immediately arrested. From what you can tell, " +
-                        "the news that you have fled the Atrar Union has already reached Nustrye, and you have been labelled as a traitor. Do you try to break away, " +
-                        "or do you resign yourfltf to your fate? (break away/ arrest)");
-                    switch (nustrye) {
-                        case "break":
-                            var breakChance = Math.random();
-                            if (breakChance >= .5) {
-                                var breakSuccess = prompt("You decide to try to break away. You fight off the first officer and manage to run fasten oughand find a hiding place. " +
-                                    "You are able to wait out the war and live peacefully for the rest of your life. YOU WIN!")
+                    offPlanet();
+                    alert("As the Methera forces killed all of your friends and family several years ago, you have no attachment " +
+                        "to the Atrar Union and decide to flee the planet in the interest of saving your own life. You get in your ship and prepare " +
+                        "to take off. With the amount of fuel you have, there are only a few other planets you will be able to reach before you run " +
+                        "out. The closest, Nustrye, is an ally of the Atrar Union and would probably welcome you in. However, you might also be seen " +
+                        "as a traitor, as you are a commander in the Atrar military. The next planet, Pasleau, is known as a neutral group, often staying " +
+                        "out of conflicts and not taking sides in wars. However, because of this, they often do not take in refugees from other " +
+                        "nations. The furthest planet you can go to is Shaenga, which is one of the many planets in the galaxy that has not been " +
+                        "colonized yet.");
+                    var fleePlanet = prompt("Which planet do you go to? (nustrye/pasleau/shaenga)");
+                    switch (fleePlanet) {
+                        case "nustrye":
+                            var nustrye = prompt("You decide to head to the closest planet, Nustrye. When you arrive on the planet, you are immediately arrested. From what you can tell, " +
+                                "the news that you have fled the Atrar Union has already reached Nustrye, and you have been labelled as a traitor. Do you try to break away, " +
+                                "or do you resign yourfltf to your fate? (break away/ arrest)");
+                            switch (nustrye) {
+                                case "break":
+                                    var breakChance = Math.random();
+                                    if (breakChance >= .5) {
+                                        var breakSuccess = prompt("You decide to try to break away. You fight off the first officer and manage to run fasten oughand find a hiding place. " +
+                                            "You are able to wait out the war and live peacefully for the rest of your life. YOU WIN!")
+                                    }
+                                    else {
+                                        var breakFail = alert("You decide to try to break away. You manage to fight off the first officer, but you are quickly overwhelmed by" +
+                                            "more. You are arrested and sentenced to death for being a traitor. GAME OVER.");
+                                    }
+                                    break;
+                                case "arrest":
+                                    alert("You resign yourself to your fate. You are arrested and sentenced to death for being a traitor. GAME OVER.");
+                                    break;
                             }
-                            else {
-                                var breakFail = alert("You decide to try to break away. You manage to fight off the first officer, but you are quickly overwhelmed by" +
-                                    "more. You are arrested and sentenced to death for being a traitor. GAME OVER.");
-                            }
+                        case "pasleau":
+                            var pasleau = prompt("");
                             break;
-                        case "arrest":
-                            alert("You resign yourself to your fate. You are arrested and sentenced to death for being a traitor. GAME OVER.");
-                            break;
+                        case "shaenga":
+                            var shaenga = prompt("You decide to head to the farthest planet, Shaenga. As you are approaching the planet, you are met with several warships " +
+                                "which you assume are from Shaenga. They ask you what your business with Shaenga is. ")
                     }
-                case "pasleau":
-                    var pasleau = prompt("");
                     break;
-                case "shaenga":
-                    var shaenga = prompt("You decide to head to the farthest planet, Shaenga. As you are approaching the planet, you are met with several warships " +
-                        "which you assume are from Shaenga. They ask you what your business with Shaenga is. ")
+                default:
+                    alert("Please choose one of the options in the parentheses. Remember, answers are CASE SENSITIVE.")
+
+
             }
-            break;
-        default:
-            alert("Please choose one of the options in the parentheses. Remember, answers are CASE SENSITIVE.")
-
-
     }
 /* Work on your own part:
  Andy: Defend
