@@ -88,7 +88,7 @@ function offPlanet() {
         case "talk":
             var speakWithLeader = prompt("Your meeting with the leader of the methera invaders is going very well, until you see a sharp object hanging above you" +
                 "Do you continue the meeting or run back to your planet? (continue/run)");
-            switch (speakWithLeader) {
+            switch (speakWithLeader){
                 case "continue":
                     var continueToSpeak = prompt("The Meeting continues and goes swell until the leader asks for a sacrifice or war," +
                         " but he wants the Chancellor do you give it to him? (yes/no)");
@@ -101,21 +101,21 @@ function offPlanet() {
                             break;
                         case "no":
                             var no = prompt("You refused he peace treaty now you start to sword fight with the Methera Empire and he takes a swing at you what do you do " +
-                                "roll out of the way, hold the sword sideways to block? (roll/block)");
+                            "roll out of the way, hold the sword sideways to block? (roll/block)");
                             break;
                         case "run":
                             alert("You ran back to the planet");
                     }
-                    switch (no) {
+                    switch (no){
                         case "roll":
                             var roll = prompt("You roll out of the way do you swing yor usorwd backbor run to think of a plan  (swing/plan)");
                             break;
                         case "block":
-                            alert("He hits you sword and  you fall to your knees and he cuts your head off. GAME OVER!!!!!");
+                             var block = alert("He hits you sword and  you fall to your knees and he cuts your head off. GAME OVER!!!!!");
                     }
                     switch (roll) {
                         case "swing":
-                            alert("You swung you  sword and missed, and your sword got stuck into the ground, and Soren Lynx the leader of the Methera Empire cuts you half, GAME OVER!!!!!!");
+                            var swing = alert("You swung you  sword and missed, and your sword got stuck into the ground, and Soren Lynx the leader of the Methera Empire cuts you half, GAME OVER!!!!!!");
                             break;
                         case "plan":
                             var plan = prompt("You hide in a corner to plan what do you do now sleep it off or surrender? (sleep/surrender)");
@@ -128,9 +128,9 @@ function offPlanet() {
                             }
                             break;
                     }
-            }
 
-        case "flee":
+
+                case "flee":
             offPlanet();
             alert("As the Methera forces killed all of your friends and family several years ago, you have no attachment " +
                 "to the Atrar Union and decide to flee the planet in the interest of saving your own life. You get in your ship and prepare " +
