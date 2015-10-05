@@ -62,10 +62,10 @@ switch (startGame) {
             "fight back to them. We will make our final stand again" +
             " the Methra by (blowing up their mothership/make a final stand in space");
         if(mothership === "blowing up their mothership"){
-            var blowingUpTheirMothership = prompt("They destroyed our cities, they destroyed our home, they destroyed our world, and now we will destory their world, " +
-                "to avenge ours.'\ The remaining forces of Altrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
-                "John Flag was accompanied by his two best soldiers, John-117 and Kelly-078  'You have all been trained for this moment, make your last stand count for " +
-                " the Altrar nation.'\ John got into his ship armed with (rifle/nuke)");
+            var blowingUpTheirMothership = prompt("\"They destroyed our cities, they destroyed our home, they destroyed our world, and now we will destory their world, " +
+                "to avenge ours.\" The remaining forces of Atrar Nation gathered in the air ship hangers the next morning to prepare for their final stand Commander " +
+                "John Flag was accompanied by his two best soldiers, John-117 and Kelly-078  \"You have all been trained for this moment, make your last stand count for " +
+                " the Atrar nation.\" John got into his ship armed with a (rifle/nuke)");
                     if(blowingUpTheirMothership === "nuke") {
                         var nuke = prompt("Stuff");
                     }
