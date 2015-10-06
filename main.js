@@ -97,14 +97,16 @@ function offPlanet() {
                     "John Flag was accompanied by his two best soldiers, John-117 and Kelly-078  \"You have all been trained for this moment, make your last stand count for " +
                     " the Atrar nation.\" John got into his ship armed with a (rifle/nuke)");
                 if (blowingUpTheirMothership === "nuke") {
-                    var nuke = prompt("Stuff");
+                    var nuke = prompt("You blow up the mothership and Atrar lives on");
                 }
                 else if (blowingUpTheirMothership === "rifle") {
-                    var rifle = prompt("work");
+                    var rifle = prompt("You go guns blazing onto the ship and make your last stand and die.");
+                    offPlanet();
                 }
             }
             else if (mothership === "make a final stand in space") {
-                console.log("Star Trek");
+                console.log("Your ships are out numbered and you get destroyed");
+                offPlanet()
             }
             break;
 
